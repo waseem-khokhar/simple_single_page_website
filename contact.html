@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Leaf Bakery - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Green Leaf Bakery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5"></textarea>
+
+        <p id="form-error" class="error"></p>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Saved Messages</h2>
+      <ul id="message-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Green Leaf Bakery</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
